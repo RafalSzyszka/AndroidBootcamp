@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="stopwatchColor">#000000</color>
+    <color name="red">#f44336</color>
+    <color name="light_red">#ef0000</color>
+    <color name="ecru">#f3e5f5</color>
+    <color name="strokeColor">#CC000000</color>
+    <color name="primaryText">#DA000000</color>
+</resources>

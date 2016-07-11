@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="pl.rafalszyszka.cvapp.CVDetails"
+    tools:showIn="@layout/activity_cvdetails">
+
+    <include layout="@layout/personal_data_section_layout" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+
+            <include
+                android:id="@+id/work_details"
+                layout="@layout/work_section_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <include
+                android:id="@+id/education_details"
+                layout="@layout/edu_section_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/work_details" />
+
+            <include
+                android:id="@+id/languages_details"
+                layout="@layout/languages_section_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/education_details"
+                android:layout_marginTop="5dp" />
+
+            <include
+                android:id="@+id/certificates_details"
+                layout="@layout/certificates_section_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/languages_details" />
+
+            <include
+                android:id="@+id/skills_details"
+                layout="@layout/skills_section_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/certificates_details" />
+
+            <include
+                android:id="@+id/interests_details"
+                layout="@layout/interests_section_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/skills_details" />
+
+            <TextView
+                android:id="@+id/consent"
+                android:layout_width="235dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/interests_details"
+                android:layout_marginTop="20dp"
+                android:text="@string/consent_text"
+                android:textColor="@color/disabledText"
+                android:textSize="10sp" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+</LinearLayout>

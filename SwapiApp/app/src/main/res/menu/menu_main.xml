@@ -1,0 +1,40 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="pl.rafalszyszka.swapiapp.MainActivity">
+    <item
+        android:id="@+id/action_people"
+        android:orderInCategory="100"
+        android:title="@string/people_label_text"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_planets"
+        android:orderInCategory="200"
+        android:title="@string/planets_label_text"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_films"
+        android:orderInCategory="300"
+        android:title="@string/films_label_text"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_species"
+        android:orderInCategory="400"
+        android:title="@string/species_label_text"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_vehicles"
+        android:orderInCategory="500"
+        android:title="@string/vehicles_label_text"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_starships"
+        android:orderInCategory="600"
+        android:title="@string/starships_label_text"
+        app:showAsAction="never" />
+</menu>

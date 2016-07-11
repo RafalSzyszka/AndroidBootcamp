@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/people"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@string/main_menu_font_style"
+        android:text="@string/people_label_text"
+        android:textColor="@color/primaryText"
+        android:textSize="@dimen/main_menu_font_size"
+        android:onClick="showPeople"/>
+
+    <Button
+        android:id="@+id/planets"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/people"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/main_menu_gap"
+        android:fontFamily="@string/main_menu_font_style"
+        android:text="@string/planets_label_text"
+        android:textColor="@color/primaryText"
+        android:textSize="@dimen/main_menu_font_size"
+        android:onClick="showPlanets"/>
+
+    <Button
+        android:id="@+id/films"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/planets"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/main_menu_gap"
+        android:fontFamily="@string/main_menu_font_style"
+        android:text="@string/films_label_text"
+        android:textColor="@color/primaryText"
+        android:textSize="@dimen/main_menu_font_size"
+        android:onClick="showFilms"/>
+
+    <Button
+        android:id="@+id/species"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/films"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/main_menu_gap"
+        android:fontFamily="@string/main_menu_font_style"
+        android:text="@string/species_label_text"
+        android:textColor="@color/primaryText"
+        android:textSize="@dimen/main_menu_font_size"
+        android:onClick="showSpecies"/>
+
+    <Button
+        android:id="@+id/vehicles"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/species"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/main_menu_gap"
+        android:fontFamily="@string/main_menu_font_style"
+        android:text="@string/vehicles_label_text"
+        android:textColor="@color/primaryText"
+        android:textSize="@dimen/main_menu_font_size"
+        android:onClick="showVehicles"/>
+
+    <Button
+        android:id="@+id/starships"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/vehicles"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/main_menu_gap"
+        android:fontFamily="@string/main_menu_font_style"
+        android:text="@string/starships_label_text"
+        android:textColor="@color/primaryText"
+        android:textSize="@dimen/main_menu_font_size"
+        android:onClick="showStarShips"/>
+
+</RelativeLayout>

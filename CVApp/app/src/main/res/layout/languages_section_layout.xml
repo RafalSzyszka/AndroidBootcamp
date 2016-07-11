@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/languages_details"
+    android:layout_width="235dp"
+    android:layout_height="wrap_content">
+
+    <EditText
+        android:id="@+id/languages_label"
+        android:layout_width="235dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="-4dp"
+        android:editable="false"
+        android:focusable="false"
+        android:text="@string/languages_label_text"
+        android:textColor="@color/secondaryText"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/first_language"
+        android:layout_width="235dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/languages_label"
+        android:text="@string/first_language_text"
+        android:textColor="@color/primaryText"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/second_language"
+        android:layout_width="235dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/first_language"
+        android:text="@string/second_language_text"
+        android:textColor="@color/primaryText"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/third_language"
+        android:layout_width="235dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/second_language"
+        android:text="@string/third_language_text"
+        android:textColor="@color/primaryText"
+        android:textSize="12sp" />
+
+</RelativeLayout>

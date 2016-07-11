@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SwapiApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="people_label_text">PEOPLE</string>
+    <string name="planets_label_text">PLANETS</string>
+    <string name="films_label_text">FILMS</string>
+    <string name="species_label_text">SPECIES</string>
+    <string name="vehicles_label_text">VEHICLES</string>
+    <string name="starships_label_text">STARSHIPS</string>
+    <string name="main_menu_font_style">sans-serif-light|bold</string>
+    <string name="search_hint_text">SEARCH BY NAME OR ID</string>
+    <string name="sw_logo">sw_logo</string>
+</resources>

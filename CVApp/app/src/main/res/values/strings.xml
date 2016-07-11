@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Curriculum Vitae</string>
+    <string name="cv_owner">Jan Kowalski</string>
+    <string name="email">Email:</string>
+    <string name="phone_number_label">Numer Telefonu:</string>
+    <string name="birth_date_label">Data Urodzenia:</string>
+    <string name="address_label">Miejsce zamieszkania:</string>
+    <string name="work_label_text">Doświadczenie zawodowe:</string>
+    <string name="work_duration">2008 – 2014</string>
+    <string name="position_name">Przedstawiciel Handlowy</string>
+    <string name="company_name_text">Birno sp. z.o.o.</string>
+    <string name="position_details">Budowanie i utrzymywanie dobrych relacji z klientami.
+        \nPozyskiwanie nowych klientów i zamówień.
+        \nPrezentacja i promocja firmy na rynku</string>
+    <string name="education_label_text">Wykształcenie:</string>
+    <string name="last_school_duration_text">2005 - 2008</string>
+    <string name="last_school_name_text">Politechnika Wrocławska</string>
+    <string name="last_school_faculty">Inżynieria produkcji</string>
+    <string name="first_school_duration_text">2002 - 2005</string>
+    <string name="first_school_name_text">14 LO Rybnik</string>
+    <string name="first_school_faculty">Profil matematyczno-fizyczny</string>
+    <string name="certificates_label_text">Szkolenia i Certyfikaty:</string>
+    <string name="second_certificate_date">12/2012\t\t\t\tNegocjacja Handlowa</string>
+    <string name="first_certificate_date">09/2014\t\t\t\tTelemarketing</string>
+    <string name="languages_label_text">Języki</string>
+    <string name="third_language_text">Francuski\t\t\tPodstawy</string>
+    <string name="second_language_text">Niemiecki\t\t\tDobry</string>
+    <string name="first_language_text">Angielski\t\t\t\tBardzo dobry</string>
+    <string name="skills_label_text">Umiejętności</string>
+    <string name="skills_text">Umiejętność prowadzenia negocjacji handlowych, znajomość pakietu MS Office, prawo jazdy kat. B</string>
+    <string name="interests_label_text">Zainteresowania</string>
+    <string name="interests_details_text">Wspinaczka wysokogórska, fotografia, muzyka</string>
+    <string name="consent_text">Wyrażam zgodę na przetwarzanie moich danych osobowych dla potrzeb niezbędnych do realizacji procesu rekrutacji (zgodnie z Ustawą z dnia 29.08.1997 roku o Ochronie Danych Osobowych; tekst jednolity: Dz. U. z 2002r. Nr 101, poz. 926 ze zm.).</string>
+    <string name="email_text">short49@gmail.com</string>
+    <string name="phone_number">568-158-319</string>
+    <string name="birth_date_text">17.05.1989</string>
+    <string name="address_text">Piłsudzkiego 15\n53-487 Wrocław</string>
+
+</resources>
